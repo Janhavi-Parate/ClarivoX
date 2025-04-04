@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+}
+
+
+/* About Section */
+.about-container {
+    max-width: 800px;
+    margin: 100px auto 50px; /* Added top margin to create space from navbar */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-content {
+    margin-bottom: 30px;
+}
+
+.about-content h2  {
+    color: #6200ea;
+    margin-bottom: 10px;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-content li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+body{
+	font-family: 'Patrick Hand', cursive;
+	
+}
+
+.navbar {
+            background-color: #6200ea; /* blue */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 97%;
+            height: 7%;
+            z-index: 1000;
+			
+        }
+
+        .navbar .title {
+            font-size: 40px;
+            color: white;
+        }
+
+        .navbar .links a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size:20px;
+            position: relative;
+        }
+
+        /* Default link styling */
+        .navbar .links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background-color: white;
+            left: 0;
+            bottom: 0;
+            transition: width 0.5s ease-in-out;
+        }
+
+        /* Hover effect to show animated underline */
+        .navbar .links a:hover::after {
+            width: 100%;
+        }
+
+        .navbar .links a:hover {
+            color: white;
+        }
+
+        /* Media Query for Mobile Screens */
+        @media screen and (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .navbar .links a {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .navbar .title {
+                margin-bottom: 10px;
+            }
+        }

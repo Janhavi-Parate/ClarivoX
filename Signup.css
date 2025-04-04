@@ -1,0 +1,113 @@
+/*this is Signup.css
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Signup Box */
+.signup-container {
+    background-color: #ffffff;
+    padding: 10px 45px 20px 20px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border: 3px solid #6200ea;
+    text-align: left;
+}
+
+/* Headings */
+h1 {
+    color: #6200ea;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    color: #6200ea;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #6200ea;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+input:focus {
+    border-color: #3700b3;
+    box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+}
+
+/* Button Styling */
+button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+/* Link Styling */
+p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a {
+    color: #6200ea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
